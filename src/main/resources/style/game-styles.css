@@ -1,0 +1,90 @@
+.root {
+    -fx-background-color: #2c3e50;
+}
+
+.game-title {
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 18px;
+    -fx-text-fill: #ecf0f1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 0);
+}
+
+.game-panel {
+    -fx-background-color: #34495e;
+    -fx-padding: 15;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0);
+}
+
+.chat-list-view {
+    -fx-control-inner-background: #ecf0f1;
+    -fx-background-color: #ecf0f1;
+    -fx-background-insets: 0;
+}
+
+.chat-input {
+    -fx-background-color: #ecf0f1;
+    -fx-text-fill: #2c3e50;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+}
+
+.send-button {
+    -fx-background-color: #95a5a6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.send-button:hover {
+    -fx-background-color: #7f8c8d;
+}
+
+.game-button {
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-background-radius: 5;
+}
+
+.btn-start {
+    -fx-background-color: #27ae60;
+}
+.btn-start:hover {
+    -fx-background-color: #2ecc71;
+}
+
+.btn-leave {
+    -fx-background-color: #c0392b;
+}
+.btn-leave:hover {
+    -fx-background-color: #e74c3c;
+}
+
+.player-row {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+    -fx-padding: 8;
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-border-color: transparent;
+}
+
+.player-row-active {
+    -fx-background-color: #2980b9;
+    -fx-border-color: #3498db;
+}
+
+.player-name {
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+.player-score {
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 14px;
+    -fx-text-fill: #f1c40f;
+}
